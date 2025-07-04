@@ -30,12 +30,16 @@ const HeroSection = () => {
           Offering individual psychotherapy for adults via telehealth in California and in-person sessions in Los Angeles through compassionate, evidence-based care
         </p>
         
-        <Button 
-          size="lg"
-          className="bg-teal-600/80 hover:bg-teal-700 text-white px-8 py-4 text-lg rounded-full border-2 border-white/20 backdrop-blur-sm transition-all duration-300 hover:scale-105"
-        >
-          SCHEDULE A CONSULTATION
-        </Button>
+        <Button
+  onClick={() => {
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+  }}
+  size="lg"
+  className="bg-teal-600/80 hover:bg-teal-700 text-white px-8 py-4 text-lg rounded-full border-2 border-white/20 backdrop-blur-sm transition-all duration-300 hover:scale-105 cursor-pointer"
+>
+  SCHEDULE A CONSULTATION
+</Button>
+
       </div>
     </section>
   );

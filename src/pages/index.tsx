@@ -5,6 +5,7 @@ import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 import ContactSection from "@/components/ContactSection";
 import Navigation from "@/components/Navigation";
+import TherapyQuoteSection from "@/components/TherapyQuoteSection";
 const index = () => {
   return (
     <div className="min-h-screen">
@@ -15,6 +16,7 @@ const index = () => {
       <div id="about">
       <AboutSection/>
       </div>
+      <TherapyQuoteSection/>
       <div id="services">
       <ServicesSection/>
       </div>

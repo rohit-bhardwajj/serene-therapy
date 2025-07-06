@@ -43,10 +43,10 @@ const FAQSection = () => {
     <section className="py-16 sm:py-24 bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-teal-800 mb-4">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-[#4e4438d3] mb-4">
             Frequently Asked Questions
           </h2>
-          <div className="w-24 h-1 bg-teal-600 mx-auto mb-8"></div>
+         <div className="w-20 h-[2px] bg-gray-300 mx-auto" />
           <p className="text-lg text-gray-600">Therapy</p>
         </div>
 
@@ -60,7 +60,7 @@ const FAQSection = () => {
                 onClick={() => toggleItem(index)}
                 className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200 cursor-pointer"
               >
-                <span className="text-lg font-medium text-teal-800 pr-4">
+                <span className="text-lg font-medium text-[#4e4438d3] hover:text-teal-800 pr-4">
                   {faq.question}
                 </span>
                 <ChevronDown 

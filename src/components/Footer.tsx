@@ -2,11 +2,11 @@ const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-teal-900 text-white py-8">
+    <footer className="bg-[#F3F0E8]/20 text-gray-500 py-8">
       <div className="w-full max-w-6xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-sm text-teal-100">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-sm text-gray-700">
           <div>
-            <h3 className="text-xl font-semibold text-white mb-4">Contact</h3>
+            <h3 className="text-xl font-semibold text-black/80 mb-4">Contact</h3>
             <ul className="space-y-1">
               <li>Dr. Serena Blake, PsyD</li>
               <li>Clinical Psychologist</li>
@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold text-white mb-4">Office Hours</h3>
+            <h3 className="text-xl font-semibold text-black/80 mb-4">Office Hours</h3>
             <ul className="space-y-1">
               <li className="font-medium">In-person Sessions:</li>
               <li>Tuesday & Thursday</li>
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold text-white mb-4">Services</h3>
+            <h3 className="text-xl font-semibold text-black/80 mb-4">Services</h3>
             <ul className="space-y-1">
               <li>• Anxiety & Stress Management</li>
               <li>• Relationship Counseling</li>
@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 pt-6 border-t border-teal-800 text-center text-teal-200 text-sm">
+        <div className="mt-12 pt-6 border-t border-teal-800 text-center text-gray-700 text-sm">
           <p>&copy; {year} Dr. Serena Blake Psychology Practice. All rights reserved.</p>
           <p className="mt-2">
             This website is for informational purposes only and does not constitute medical advice. 
